@@ -1,6 +1,33 @@
 h1.welcome{
 	color: #087C91;
+	background-color: #DACDFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+
 }
+/* Transition couleur au passage de la souris */
+h1.welcome:hover{
+  color: #DACDFF;
+	background-color: #087C91;
+	font-size: 37px;
+	transition: 0.8s all;
+	visibility: visible;
+
+}
+
 body{
 	background-color: #DACDFF;
+}
+
+img.logo{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 7%;
+}
+img.logo:hover{
+	width: 7.9%;
+	transition: 0.5s;
 }
